@@ -1,0 +1,61 @@
+.navbar-brand img{
+    width: 100px;
+}
+
+.bg-custom{
+    background-color: #0059B9;
+}
+
+.navbar-nav .nav-link i {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.navbar-nav .nav-link i:hover {
+    color: rgb(255, 255, 255);
+}
+.navbar{
+    border-bottom: 5px solid #FF5757;
+    position: relative;
+}
+
+.search-container {
+    background-color: #f8f9fa;
+    padding: 5px; 
+    border-radius: 5px;
+    display: flex; 
+    align-items: center;
+    height: 40px;
+    width: 500px;
+}
+
+.search-input {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.collapse .form-control {
+    width: 440px;
+}
+.accordion .options-filter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: white;
+}
+.carousel-item img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover; 
+}
+.progress-bar {
+    transition: width 0.5s linear;
+}
+#carouselStatus {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    margin-right: 5px;
+}
